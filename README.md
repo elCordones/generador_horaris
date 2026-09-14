@@ -23,7 +23,7 @@
 
 Pots utilitzar l'aplicació en línia directament sense instal·lar cap programa al teu ordinador:
 
-👉 **[Obrir el Generador d'Horaris Escolars](https://elcordones.github.io/generador-horaris/)** *(desplegat a GitHub Pages)*
+👉 **[Obrir el Generador d'Horaris Escolars](https://elcordones.github.io/generador_horaris/)** *(desplegat a GitHub Pages)*
 
 > [!TIP]
 > **Instal·lable en 1 clic (App d'escriptori / PWA):** Des de Google Chrome o Microsoft Edge, pots fer clic a la icona de la barra d'adreces **"Instal·lar aplicació"** per tenir una icona directa a l'escriptori del teu ordinador. Funciona fins i tot **sense connexió a Internet**!
@@ -114,10 +114,10 @@ Si vols descarregar el repositori i contribuir al codi o executar-lo al teu equi
 
 ```bash
 # 1. Clonar el repositori
-git clone https://github.com/elCordones/generador-horaris.git
+git clone https://github.com/elCordones/generador_horaris.git
 
 # 2. Entrar al directori de l'aplicació
-cd generador-horaris/web-app
+cd generador_horaris/web-app
 
 # 3. Instal·lar les dependències del projecte
 npm install
