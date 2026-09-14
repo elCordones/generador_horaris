@@ -32,15 +32,17 @@
   - [x] Repositori pujat amb èxit a GitHub: https://github.com/elCordones/generador_horaris
   - [x] Desplegament automàtic a GitHub Pages completat i actiu a: https://elcordones.github.io/generador_horaris/
 - **Punt exacte on ens hem quedat**:
-  - El repositori s'ha publicat a GitHub sota el nom `generador_horaris`.
-  - El workflow de GitHub Actions ha compilat i desplegat amb èxit la versió 3.4.0 a GitHub Pages.
-  - El repositori local està sincronitzat i llest per a continuar amb el roadmap de la versió 3.5.0.
+  - Repositori GitHub creat, configurat i sincronitzat sota el nom `generador_horaris`.
+  - Desplegament automàtic a GitHub Pages amb GitHub Actions operatiu i verificat al 100% (HTTP 200 OK).
+  - Repositori local sincronitzat a la branca `main`.
 
 ## 3. Full de Ruta d'Implementació (Roadmap / Propers Passos)
 - **Tasques immediates per a la següent sessió**:
-  - [ ] Verificar el desplegament a GitHub Pages (Settings -> Pages -> GitHub Actions).
-  - [ ] Opcional: Reanomenar el repositori a GitHub a `generador_horaris` si es vol corregir la tipografia.
+  - [ ] **Mòdul de Gàrdies i Substitucions (v3.5.0)**:
+    - [ ] Disseny del model de dades per a la disponibilitat de guàrdia de cada docent per franja.
+    - [ ] Gestor d'incidències i baixes/absències diàries de professorat.
+    - [ ] Algorisme d'assignació automàtica de substituts segons criteris pedagògics i disponibilitat real.
+    - [ ] Generació i descàrrega del Full de Guàrdia diari en PDF per a la cartel·lera de la sala de mestres.
 - **Millores futures i backlog**:
-  - [ ] **Mòdul de Gàrdies i Substitucions**: Gestor d'incidències i ausències diàries amb assignació automàtica de professorat de guàrdia.
-  - [ ] **Full de Guàrdia Imprimible**: Generació de PDF diari de substitucions per a la sala de mestres.
-  - [ ] **Publicació i Enllaços iCal / Google Calendar**: Exportació i sincronització de calendaris per al professorat.
+  - [ ] **Publicació i Enllaços iCal / Google Calendar**: Exportació i sincronització de calendaris individuals i de centre.
+  - [ ] Optimització de la càrrega inicial i empaquetament (*chunk splitting* a Vite).

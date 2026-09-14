@@ -34,18 +34,22 @@ Hem desenvolupat i completat amb èxit el **Suport Multi-Etapa per a Educació I
 6. 🔀 **Reordenació de Franges amb Drag & Drop i Auto-Ordre Cronològic:**
    - Nanses d'arrossegar (`GripVertical`) i botó **`Ordenar Cronològicament`** per classificar les franges de matí a tarda en 1 clic.
 
-7. ⚙️ **Gestor d'Àmbits i Àrees Suggerides Personalitzable:**
-   - Modal d'edició de botons ràpids d'assignatures per afegir, eliminar o restaurar suggeriments d'Infantil i Primària amb persistència a `localStorage`.
+8. 🌐 **Publicació oficial a GitHub i desplegament continu (CI/CD):**
+   - Repositori oficial creat i sincronitzat: [github.com/elCordones/generador_horaris](https://github.com/elCordones/generador_horaris)
+   - Aplicació web viva i funcional a GitHub Pages: [elcordones.github.io/generador_horaris](https://elcordones.github.io/generador_horaris/)
+   - Desplegament automàtic configurat amb GitHub Actions (`.github/workflows/deploy.yml`).
+   - Fitxer `README.md` professional d'estàndard GitHub amb badges, especificacions, taules tecnològiques i guia d'usuari.
 
 ---
 
-## 🚀 2. Pròxims Passos Pendents (Futurs desenvolupaments)
+## 🚀 2. Pròxims Passos Pendents (Futurs desenvolupaments - v3.5.0)
 
-### 🔹 Secció 4: Gestió Avançada de Substitucions i Ausències (Futur)
-- **Mòdul de Gàrdies:** Gestió diària d'ausències de professorat i assignació automàtica de mestres de guàrdia disponibles en cada franja.
-- **Exportació de Fulls de Guàrdia:** Generació de PDF diari de substitucions per a la sala de mestres.
+### 🔹 Secció 4: Gestió Avançada de Substitucions i Ausències (Immediat per a la propera sessió)
+- **Model de Guàrdies:** Disponibilitat de guàrdia de cada docent per franja horària.
+- **Mòdul de Gàrdies i Baixes:** Gestió diària d'ausències de professorat i assignació automàtica de mestres de guàrdia disponibles en cada franja segons criteris pedagògics.
+- **Exportació de Fulls de Guàrdia:** Generació de PDF diari de substitucions per a la cartel·lera de la sala de mestres.
 
-### 🔹 Secció 5: Publicació i Enllaços iCal (Futur)
+### 🔹 Secció 5: Publicació i Enllaços iCal (Backlog)
 - **Publicació / Compartició d'Horaris:** Generació d'un enllaç de només lectura o exportació en format iCal/Calendar per a l'equip docent.
 
 ---
@@ -58,6 +62,6 @@ Hem desenvolupat i completat amb èxit el **Suport Multi-Etapa per a Educació I
 ---
 
 ## 💬 Prompt per iniciar una nova conversa
-Si obris una nova xat en el futur, pots enganxar aquesta frase:
+Si obris un nou xat en el futur, pots enganxar aquesta frase:
 
-> *"Hola! Vull continuar millorant el Generador d'Horaris Escolars. Consulta el fitxer `RESUM_SESSIO_I_PASOS_SEGUENTS.md` per veure on ho hem deixat i la versió actual 3.4.0."*
+> *"Hola! Vull continuar desenvolupant el Generador d'Horaris Escolars. Consulta els fitxers `PROJECT_STATUS.md` i `RESUM_SESSIO_I_PASOS_SEGUENTS.md` per veure on ho hem deixat (repositori a GitHub i desplegat a GitHub Pages) i iniciem la v3.5.0 amb el Mòdul de Gàrdies i Substitucions."*
