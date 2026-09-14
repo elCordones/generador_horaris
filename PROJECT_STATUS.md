@@ -29,13 +29,16 @@
   - [x] Gestor d'àmbits i assignatures suggerides editable i persistent.
   - [x] Auditoria de seguretat superada (zero secrets, zero PII, 100% Client-Side).
   - [x] README.md professional per a GitHub i configuració de GitHub Pages (.github/workflows/deploy.yml).
+  - [x] Repositori pujat amb èxit a GitHub: https://github.com/elCordones/generador_hoaris
 - **Punt exacte on ens hem quedat**:
-  - S'ha creat el README.md d'estàndard professional, el fitxer `.gitignore` arrel i el flux de treball de GitHub Actions. S'està procedint a la inicialització de Git i preparació del commit inicial per pujar el repositori a GitHub.
+  - El repositori s'ha inicialitzat i s'ha fet el `git push` a GitHub a la branca `main`.
+  - S'ha activat la GitHub Action de desplegament a GitHub Pages.
+  - Pendent verificar si l'usuari vol mantenir el nom `generador_hoaris` o reanomenar-lo a `generador_horaris` a GitHub Settings.
 
 ## 3. Full de Ruta d'Implementació (Roadmap / Propers Passos)
 - **Tasques immediates per a la següent sessió**:
-  - [ ] Enllaçar el repositori local amb el repositori remot de GitHub (`git remote add origin ...`) i fer `git push`.
-  - [ ] Verificar el desplegament automàtic a GitHub Pages mitjançant GitHub Actions.
+  - [ ] Verificar el desplegament a GitHub Pages (Settings -> Pages -> GitHub Actions).
+  - [ ] Opcional: Reanomenar el repositori a GitHub a `generador_horaris` si es vol corregir la tipografia.
 - **Millores futures i backlog**:
   - [ ] **Mòdul de Gàrdies i Substitucions**: Gestor d'incidències i ausències diàries amb assignació automàtica de professorat de guàrdia.
   - [ ] **Full de Guàrdia Imprimible**: Generació de PDF diari de substitucions per a la sala de mestres.
