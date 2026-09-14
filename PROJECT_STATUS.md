@@ -29,11 +29,12 @@
   - [x] Gestor d'àmbits i assignatures suggerides editable i persistent.
   - [x] Auditoria de seguretat superada (zero secrets, zero PII, 100% Client-Side).
   - [x] README.md professional per a GitHub i configuració de GitHub Pages (.github/workflows/deploy.yml).
-  - [x] Repositori pujat amb èxit a GitHub: https://github.com/elCordones/generador_hoaris
+  - [x] Repositori pujat amb èxit a GitHub: https://github.com/elCordones/generador_horaris
+  - [x] Desplegament automàtic a GitHub Pages completat i actiu a: https://elcordones.github.io/generador_horaris/
 - **Punt exacte on ens hem quedat**:
-  - El repositori s'ha inicialitzat i s'ha fet el `git push` a GitHub a la branca `main`.
-  - S'ha activat la GitHub Action de desplegament a GitHub Pages.
-  - Pendent verificar si l'usuari vol mantenir el nom `generador_hoaris` o reanomenar-lo a `generador_horaris` a GitHub Settings.
+  - El repositori s'ha publicat a GitHub sota el nom `generador_horaris`.
+  - El workflow de GitHub Actions ha compilat i desplegat amb èxit la versió 3.4.0 a GitHub Pages.
+  - El repositori local està sincronitzat i llest per a continuar amb el roadmap de la versió 3.5.0.
 
 ## 3. Full de Ruta d'Implementació (Roadmap / Propers Passos)
 - **Tasques immediates per a la següent sessió**:
