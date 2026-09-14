@@ -1,0 +1,54 @@
+name: Desplegar a GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar el codi font
+        uses: actions/checkout@v4
+
+      - name: Configurar entorn Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: web-app/package-lock.json
+
+      - name: Instal·lar dependències
+        run: |
+          cd web-app
+          npm ci
+
+      - name: Compilar aplicació web per a producció
+        run: |
+          cd web-app
+          npm run build
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Pujar artefacte de la web
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'web-app/dist'
+
+      - name: Desplegar a GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
